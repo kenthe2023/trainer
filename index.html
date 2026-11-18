@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>人工智能训练师三级</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="训练师三级">
+<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar" id="topbar">
+    <div class="topbar-left">
+      <button class="icon-btn" id="backBtn" data-act="go-back" aria-label="返回" hidden>‹</button>
+      <div class="brand">
+        <span class="brand-title" id="pageTitle">训练师三级</span>
+        <span class="brand-sub" id="pageSub">2026 考证冲刺</span>
+      </div>
+    </div>
+    <button class="icon-btn" id="statsBtn" aria-label="统计">≡</button>
+  </header>
+
+  <main id="view"></main>
+
+  <nav class="tabbar" id="tabbar">
+    <button class="tab active" data-tab="learn"><span class="tab-ico">▤</span><span>学习</span></button>
+    <button class="tab" data-tab="practice"><span class="tab-ico">✎</span><span>练习</span></button>
+    <button class="tab" data-tab="exam"><span class="tab-ico">⏱</span><span>模考</span></button>
+    <button class="tab" data-tab="wrong"><span class="tab-ico">✦</span><span>错题</span></button>
+    <button class="tab" data-tab="me"><span class="tab-ico">☺</span><span>我的</span></button>
+  </nav>
+</div>
+<script src="questions.js"></script>
+<script src="learn.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
